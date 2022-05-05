@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+
+body {
+  background-image: radial-gradient(DarkOrange, DarkSalmon, DarkOrchid);
+}
+
+.inback {
+  background-image: radial-gradient(coral, chartreuse, DarkBlue);
+  margin: 15px;
+  margin-left: 15px;
+}
+
+.inback2 {
+  background-image: radial-gradient(coral, chartreuse, DarkBlue);
+  margin: 15px;
+  margin-left: 15px;
+}
+
+.box {
+  background-image: radial-gradient(coral, chartreuse, DarkBlue);
+  display: flex;
+  flexwrap: wrap;
+  justify-content: space-between;
+}
+
+.thatone {
+  text-align: center;
+  border: 20px solid magenta;
+  padding: 30px;
+  margin: 15px;
+  margin-left: 15px;
+  width: 300px;
+  height: 400px;
+  border-radius: 25px;
+}
+
+.box:hover {
+  width: 30px;
+  height: 30px;
+  background-color: teal;
+}
+
+h2 {
+  color: rgb(230, 95, 92);
+  font-family: monospace;
+}
+
+#titlefont {
+  font-size: 55px;
+  font-family: "Jacques Francois Shadow", cursive;
+  color: black;
+}
+
+img {
+  border: 10px solid magenta;
+  margin: 5px;
+  padding: 2vw;
+  border-radius: 50%;
+}
+
+p {
+  border: 3px double;
+}
+
+p > span {
+  color: black;
+}
